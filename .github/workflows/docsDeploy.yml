@@ -39,7 +39,6 @@ jobs:
         env:
           RY_ANALYTICS: ${{ vars.RY_ANALYTICS }}
           RY_ANALYTICS_SITEID: ${{ vars.RY_ANALYTICS_SITEID }}
-          GSITEVERIFICATION: ${{ vars.GSITEVERIFICATION }}
           DOCS_BASE: '/'
         run: npm run build
         working-directory: ./docsite
