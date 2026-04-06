@@ -13,3 +13,7 @@ The workaround is deploy to both domains simultaneously and let the old path-doc
 * Switch all URLs in docs/repo to use the new domain
 * Wait (indefinitely) for page ranking/SEO for new domain to (hopefully) get to parity with old path-docs
 * Eventually, switch main repo gh pages to use custom domain
+
+___
+
+This repository deploys docs with the same behavior as the main repository: on manual dispatch or on [Release/Tag](https://github.com/FoxxMD/multi-scrobbler/releases) creation (new version) for MS. The docs are exactly the same as you would find at foxxmd.github.io/multi-scrobbler.
