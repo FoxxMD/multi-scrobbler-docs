@@ -40,6 +40,9 @@ jobs:
       - name: Generate schema files
         run: npm run schema
         working-directory: ms
+      - name: Generate schema files
+        run: npm run openapi:docs
+        working-directory: ms
       - name: Install docusaurus dependencies
         run: npm ci
         working-directory: ms/docsite
