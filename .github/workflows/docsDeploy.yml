@@ -52,6 +52,7 @@ jobs:
           RY_ANALYTICS_SITEID: ${{ vars.RY_ANALYTICS_SITEID }}
           BASE_SITE: ${{ vars.BASE_SITE }}
           DOCS_BASE: '/'
+          DOCS_CHANGELOGS: 'true'
         run: npm run build
         working-directory: ms/docsite
       - name: Copy CNAME
